@@ -45,4 +45,11 @@ while i < 5:
     print("hello python")
     i += 1
 
+j = 1
+while j <= 5:
+    i = 1
+    while i <= 3:
+        print(i)
+        i += 1
+    j += 1
 
