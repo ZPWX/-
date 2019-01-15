@@ -8,5 +8,19 @@ def sum(a):
     print(sums)
 
 sum(10)
+# 成员方法的调用
+class Cat:
+    def catch(self):
 
+        self.jump()
+        self.grasp()
+        self.bite()
 
+    def jump(self):
+        print("jump")
+    def grasp(self):
+        print("grasp")
+    def bite(self):
+        print("bite")
+cat1 = Cat()
+cat1.catch()
