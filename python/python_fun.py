@@ -24,3 +24,18 @@ class Cat:
         print("bite")
 cat1 = Cat()
 cat1.catch()
+# 私有成员变量的调用
+class Card:
+    def __init__(self):
+        self.card_id = None
+        self.__pwd = None
+
+    def get_pwd(self):
+        return self.__pwd
+
+    def set_pwd(self,pwd):
+        self.__pwd = pwd
+
+c = Card()
+c.set_pwd("gxtao")
+print(c.get_pwd())
