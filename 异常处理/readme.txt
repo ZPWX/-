@@ -1,0 +1,4 @@
+Python与Java异常处理
+个人观点为Python并没有Java异常处理机制严谨
+此处只为Python异常书写一个异常案例
+关于异常处理机制的运行和详细结构信息请查阅coreJava中异常处理
